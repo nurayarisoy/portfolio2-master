@@ -33,7 +33,7 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "Recipe App",
+      title: "Blog-App",
       description: "Users can search recipes by using the Edamam API and can see the details.",
       imgUrl: projImg3,
     },
