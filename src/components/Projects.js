@@ -6,11 +6,12 @@ import projImg3 from "../assets/img/fireblog.gif";
 import projImg4 from "../assets/img/django-blog-app.gif";
 import projImg5 from "../assets/img/API.png";
 import projImg6 from "../assets/img/movie_seat_booking.gif";
-import projImg7 from "../assets/img/calculater.gif";
+import projImg7 from "../assets/img/calcolator.gif";
 import projImg8 from "../assets/img/randomuser.gif";
 import projImg9 from "../assets/img/touplaces.gif";
 import projImg10 from "../assets/img/todo.gif";
-
+import projImg11 from "../assets/img/summarize.gif";
+import projImg12 from "../assets/img/northwind-redux.gif"
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -41,11 +42,21 @@ export const Projects = () => {
       title: "ToDo App",
       description: "To-do app coded with Redux.js, Reduxthunks, selectors, and styled components.",
       imgUrl: projImg10,
-    },,
+    },
     {
       title: "Tour App",
       description: "Developed using React and deployed to Netlify",
       imgUrl: projImg9,
+    },
+    {
+      title: "Summarize with React-redux & Rapid App Cpt-4",
+      description: "the Users can extract a text summary", 
+      imgUrl: projImg11,
+    },
+    {
+      title: "Northwind with React-redux & json App",
+      description: "creating user product information Update deleting adding", 
+      imgUrl: projImg12,
     },
   ];
 
